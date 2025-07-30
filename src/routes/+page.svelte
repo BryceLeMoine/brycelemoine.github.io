@@ -4,10 +4,10 @@
 </script>
 
 <svelte:head>
-  <meta property="og:image" content={pinterestSeoImage} />
+  <meta property="og:image" content={pinterestSeoImage.src} />
   <meta property="og:image:width" content="1000" />
   <meta property="og:image:height" content="1000" />
-  <meta property="og:image" content={seoImage} />
+  <meta property="og:image" content={seoImage.src} />
 </svelte:head>
 
 <h1>Welcome to SvelteKit</h1>
