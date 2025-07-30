@@ -9,12 +9,14 @@ const config = {
 
   kit: {
     adapter: adapter({
+      pages: "build",
+      assets: "build",
       fallback: "404.html",
+      precompress: false,
+      strict: true,
     }),
     paths: {
-      base: process.argv.includes("dev")
-        ? ""
-        : "https://brycelemoine.github.io/seo-test/",
+      base: process.argv.includes("dev") ? "" : "/seo-test",
     },
   },
 };
